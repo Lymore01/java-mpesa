@@ -64,12 +64,12 @@ public class PaymentProcessor {
             password,
             timestamp,
             "CustomerPayBillOnline",
-            "1",
-            "254719520494",
+            "29700",
+            "254745478832",
             shortCode,
-            "254719520494",
+            "254745478832",
             callback_url + "/api/payment/stk-push-callback",
-            "Limo Payments",
+            "Usitense Ednah ni sisi",
             "Testing stk push"
         );
 

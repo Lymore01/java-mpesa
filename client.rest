@@ -2,3 +2,26 @@
 
 ###
 GET {{base_url}}/stk
+
+###
+GET {{base_url}}/api/v1/wallet/Kelly%20Limo
+
+###
+POST {{base_url}}/api/v1/wallet
+Content-Type: application/json
+
+{
+    "customerName": "Kelly Limo"
+}
+
+### Deposit funds
+POST {{base_url}}/api/v1/wallet/deposit
+Content-Type: application/json
+
+{
+    "walletId": "051285bd-4d1d-4c07-b4ae-55cdbbb64583",
+    "amount": 200
+}
+
+
+### Withdraw funds
